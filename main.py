@@ -124,6 +124,7 @@ def main(clean, quiet):
         config_path=script_path,
         data_paths=[gold_path],
         file_endings=(".csv", ".parquet"),
+        git_lfs=True,
     )
 
     update_odps(
