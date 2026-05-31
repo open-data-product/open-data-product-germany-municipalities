@@ -6,7 +6,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities
 * license: CC-BY 4.0
-* updated: 2026-05-30
+* updated: 2026-05-31
 
 ## Input Ports
 
@@ -36,12 +36,11 @@ name: Germany Municipalities 2026 03 Csv
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
 * license: CC-BY 4.0
-* updated: 2026-05-30
+* updated: 2026-05-31
 
 **Files**
 
-* [germany-municipalities-2026-03-ags.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ags.csv)
-* [germany-municipalities-2026-03-ars.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-ars.csv)
+* [germany-municipalities-2026-03.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03.csv)
 
 
 ### germany-municipalities-2026-03-parquet
@@ -49,12 +48,11 @@ name: Germany Municipalities 2026 03 Parquet
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
 * license: CC-BY 4.0
-* updated: 2026-05-30
+* updated: 2026-05-31
 
 **Files**
 
-* [germany-municipalities-2026-03-ags.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ags.parquet)
-* [germany-municipalities-2026-03-ars.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-ars.parquet)
+* [germany-municipalities-2026-03.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03.parquet)
 
 
 ## Classification
