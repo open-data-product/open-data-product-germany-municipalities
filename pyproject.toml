@@ -6,7 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "click>=8.2.1",
+    "numpy>=2.4.4",
     "open-data-product-python-lib",
+    "pandas>=3.0.2",
+    "pydantic>=2.13.4",
     "rich>=14.1.0",
 ]
 

@@ -2,7 +2,11 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "click>=8.2.1",
+#     "numpy>=2.4.4",
 #     "open-data-product-python-lib",
+#     "pandas>=3.0.2",
+#     "pydantic>=2.13.4",
+#     "rich>=14.1.0",
 # ]
 #
 # [tool.uv.sources]
@@ -42,6 +46,11 @@ from opendataproduct.transform.data_aggregator import aggregate_data
 from opendataproduct.transform.data_copier import copy_data
 from opendataproduct.transform.data_csv_converter import convert_data_to_csv
 
+from lib.extract.coat_of_arms_extractor import extract_coat_of_arms
+from lib.config.municipality_information_system_loader import (
+    load_municipality_information_systems,
+)
+
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
 
@@ -64,6 +73,14 @@ def main(clean, quiet):
     odps = load_odps(config_path=script_path)
     dpds = load_dpds(config_path=script_path)
 
+    municipality_information_systems = (
+        load_municipality_information_systems(
+            data_path=os.path.join(gold_path, "germany-municipalities-2026-03-csv"),
+            file_name="germany-municipalities-2026-03.csv",
+        )
+        or []
+    )
+
     #
     # Bronze: Integrate
     #
@@ -71,6 +88,13 @@ def main(clean, quiet):
     extract_data(
         data_product_manifest=data_product_manifest,
         results_path=bronze_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    extract_coat_of_arms(
+        results_path=bronze_path,
+        municipality_information_systems=municipality_information_systems,
         clean=clean,
         quiet=quiet,
     )
