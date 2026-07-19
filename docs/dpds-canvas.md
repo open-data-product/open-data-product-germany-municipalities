@@ -19,6 +19,8 @@
 ## Interface Components
 
 ### Input Ports
+#### germany-municipalities-2026-06
+* fully qualified name: germany-municipalities-2026-06
 #### germany-municipalities-2026-03
 * fully qualified name: germany-municipalities-2026-03
 

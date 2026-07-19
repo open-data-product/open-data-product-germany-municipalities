@@ -45,6 +45,19 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
+      id: germany-municipalities-2026-06
+      fullyQualifiedName: germany-municipalities-2026-06
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
       id: germany-municipalities-2026-03
       fullyQualifiedName: germany-municipalities-2026-03
       entityType:

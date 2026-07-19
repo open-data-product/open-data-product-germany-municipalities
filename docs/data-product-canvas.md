@@ -6,9 +6,21 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities
 * license: CC-BY 4.0
-* updated: 2026-05-31
+* updated: 2026-07-18
 
 ## Input Ports
+
+### germany-municipalities-2026-06
+name: Alle politisch selbständigen Gemeinden mit ausgewählten Merkmalen am 30.06.2026 (2. Quartal 2026)
+* owner: Statistisches Bundesamt (Destatis)
+* url: https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html
+* license: Data Licence Germany – Attribution – Version 2.0
+* updated: 2026-05-27
+
+**Files**
+
+* [AuszugGV2QAktuell.xlsx?__blob=publicationFile&v=13](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.xlsx?__blob=publicationFile&v=13)
+
 
 ### germany-municipalities-2026-03
 name: Alle politisch selbständigen Gemeinden mit ausgewählten Merkmalen am 31.03.2026 (1. Quartal)
@@ -36,7 +48,7 @@ name: Germany Municipalities 2026 03 Csv
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
 * license: CC-BY 4.0
-* updated: 2026-05-31
+* updated: 2026-07-18
 
 **Files**
 
@@ -48,7 +60,7 @@ name: Germany Municipalities 2026 03 Parquet
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
 * license: CC-BY 4.0
-* updated: 2026-05-31
+* updated: 2026-07-18
 
 **Files**
 
