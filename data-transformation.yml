@@ -1,0 +1,28 @@
+---
+input_ports:
+  - id: germany-municipalities-geodata-2025-01
+    files:
+      - source_file_name: VG250_STA.shp
+        target_file_name: germany-2025-01.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_LAN.shp
+        target_file_name: germany-2025-01-federal-states.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_RBZ.shp
+        target_file_name: germany-2025-01-administrative-districts.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_KRS.shp
+        target_file_name: germany-2025-01-counties.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_VWG.shp
+        target_file_name: germany-2025-01-administrative-associations.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_GEM.shp
+        target_file_name: germany-2025-01-municipalities.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_LI.shp
+        target_file_name: todo-li.geojson
+        target_projection_number: 4326
+      - source_file_name: VG250_PK.shp
+        target_file_name: todo-pk.geojson
+        target_projection_number: 4326

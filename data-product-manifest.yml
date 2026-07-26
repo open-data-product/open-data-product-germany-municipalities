@@ -31,6 +31,17 @@ input_ports:
       schema: []
     files:
       - https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV1QAktuell.xlsx?__blob=publicationFile&v=16
+  - id: germany-municipalities-geodata-2025-01
+    metadata:
+      name: Verwaltungsgebiete 1:250 000 Stand 01.01. (VG250 01.01.)
+      owner: Bundesamt für Kartographie und Geodäsie
+      description:
+      url: https://gdz.bkg.bund.de/index.php/default/verwaltungsgebiete-1-250-000-stand-01-01-vg250-01-01.html
+      license: Data Licence Germany – Attribution – Version 2.0
+      updated: 2025-01-01
+      schema: []
+    files:
+      - https://daten.gdz.bkg.bund.de/produkte/vg/vg250_ebenen_0101/aktuell/vg250_01-01.utm32s.shape.ebenen.zip
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py

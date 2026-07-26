@@ -27,6 +27,9 @@ from opendataproduct.config.data_transformation_silver_loader import (
     load_data_transformation_silver,
 )
 from opendataproduct.config.dpds_loader import load_dpds
+from opendataproduct.config.geodata_transformation_loader import (
+    load_data_transformation,
+)
 from opendataproduct.config.odps_loader import load_odps
 from opendataproduct.document.data_product_canvas_generator import (
     generate_data_product_canvas,
@@ -45,6 +48,8 @@ from opendataproduct.extract.data_extractor import extract_data
 from opendataproduct.transform.data_aggregator import aggregate_data
 from opendataproduct.transform.data_copier import copy_data
 from opendataproduct.transform.data_csv_converter import convert_data_to_csv
+from opendataproduct.transform.geodata_geojson_converter import convert_to_geojson
+from opendataproduct.transform.geodata_projection_converter import convert_projection
 
 from lib.extract.coat_of_arms_extractor import extract_coat_of_arms
 from lib.config.municipality_information_system_loader import (
@@ -69,6 +74,7 @@ def main(clean, quiet):
     data_transformation_silver = load_data_transformation_silver(
         config_path=script_path
     )
+    data_transformation = load_data_transformation(config_path=script_path)
     data_transformation_gold = load_data_transformation_gold(config_path=script_path)
     odps = load_odps(config_path=script_path)
     dpds = load_dpds(config_path=script_path)
@@ -113,6 +119,22 @@ def main(clean, quiet):
 
     convert_data_to_csv(
         data_transformation=data_transformation_silver,
+        source_path=silver_path,
+        results_path=silver_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    convert_to_geojson(
+        data_transformation,
+        source_path=bronze_path,
+        results_path=silver_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    convert_projection(
+        data_transformation=data_transformation,
         source_path=silver_path,
         results_path=silver_path,
         clean=clean,
