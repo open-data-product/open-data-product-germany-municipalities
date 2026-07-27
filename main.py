@@ -50,6 +50,7 @@ from opendataproduct.transform.data_copier import copy_data
 from opendataproduct.transform.data_csv_converter import convert_data_to_csv
 from opendataproduct.transform.geodata_geojson_converter import convert_to_geojson
 from opendataproduct.transform.geodata_projection_converter import convert_projection
+from opendataproduct.transform.geodata_resolution_reducer import reduce_resolution
 
 from lib.extract.coat_of_arms_extractor import extract_coat_of_arms
 from lib.config.municipality_information_system_loader import (
@@ -133,14 +134,6 @@ def main(clean, quiet):
         quiet=quiet,
     )
 
-    convert_projection(
-        data_transformation=data_transformation,
-        source_path=silver_path,
-        results_path=silver_path,
-        clean=clean,
-        quiet=quiet,
-    )
-
     #
     # Gold: Aggregate
     #
@@ -148,6 +141,22 @@ def main(clean, quiet):
     aggregate_data(
         data_transformation=data_transformation_gold,
         source_path=silver_path,
+        results_path=gold_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    convert_projection(
+        data_transformation=data_transformation,
+        source_path=silver_path,
+        results_path=gold_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    reduce_resolution(
+        data_transformation=data_transformation,
+        source_path=gold_path,
         results_path=gold_path,
         clean=clean,
         quiet=quiet,
