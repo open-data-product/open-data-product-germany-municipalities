@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/open-data-product/open-data-product-municipalities)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-municipalities/issues)
+[![Issues](https://img.shields.io/github/issues/open-data-product/open-data-product-germany-municipalities)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-municipalities/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-data-product/open-data-product-municipalities">
+  <a href="https://github.com/open-data-product/open-data-product-germany-municipalities">
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Municipalities</h1>
+  <h1 align="center">Germany Municipalities</h1>
 
   <p align="center">
-    Data product providing a directory of municipalities
+    Data product providing a directory of German municipalities
   </p>
 </p>
 
@@ -68,7 +68,7 @@ uv run main.py
 ## Roadmap
 
 See
-the [open issues](https://github.com/open-data-product/open-data-product-municipalities/issues)
+the [open issues](https://github.com/open-data-product/open-data-product-germany-municipalities/issues)
 for a list of proposed features (and
 known issues).
 

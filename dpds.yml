@@ -1,16 +1,16 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:municipalities:1.0
-  name: Municipalities
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:germany-municipalities:1.0
+  name: Germany Municipalities
   version: '1.0'
   domain: domain
   owner:
     id: Open Data Product
     name: Open Data Product
-  id: municipalities
+  id: germany-municipalities
   entityType:
-  displayName: Municipalities
+  displayName: Germany Municipalities
   description:
   contactPoints:
 interfaceComponents:
@@ -33,6 +33,32 @@ interfaceComponents:
       obligations:
       id: germany-municipalities-2026-03-parquet
       fullyQualifiedName: germany-municipalities-2026-03-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-geodata-2025-01
+      fullyQualifiedName: germany-municipalities-geodata-2025-01
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-geodata-2025-01-low-res
+      fullyQualifiedName: germany-municipalities-geodata-2025-01-low-res
       entityType:
       name: ''
       version:

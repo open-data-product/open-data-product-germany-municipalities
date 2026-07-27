@@ -178,7 +178,7 @@ def main(clean, quiet):
         data_product_manifest=data_product_manifest,
         config_path=script_path,
         data_paths=[gold_path],
-        file_endings=(".csv", ".parquet"),
+        file_endings=(".csv", ".parquet", ".geojson"),
         git_lfs=True,
     )
 

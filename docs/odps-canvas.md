@@ -1,13 +1,13 @@
 
-# Open Data Product Specification (ODPS) Canvas - Municipalities
+# Open Data Product Specification (ODPS) Canvas - Germany Municipalities
 
 * schema version: 3.1
 ## Product
 
 ### Basic Information
 
-* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-municipalities/refs/heads/main/logo-with-text.png
-* product ID: municipalities
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-germany-municipalities/refs/heads/main/logo-with-text.png
+* product ID: germany-municipalities
 * status: active
 * type: source-aligned
 * version: 1.0

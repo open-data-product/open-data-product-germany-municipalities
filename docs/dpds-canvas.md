@@ -1,15 +1,15 @@
 
-# Data Product Descriptor Specification (DPDS) Canvas - Municipalities
+# Data Product Descriptor Specification (DPDS) Canvas - Germany Municipalities
 
 * data product descriptor: data-product-descriptor
 
 ## Info
 
-* ID: municipalities
-* fully qualified name: urn:dpds:opendataproduct:dataproducts:municipalities:1.0
-* name: Municipalities
+* ID: germany-municipalities
+* fully qualified name: urn:dpds:opendataproduct:dataproducts:germany-municipalities:1.0
+* name: Germany Municipalities
 * version: 1.0
-* display name: Municipalities
+* display name: Germany Municipalities
 * domain: domain
 ### Owner
 
@@ -31,6 +31,10 @@
 * fully qualified name: germany-municipalities-2026-03-csv
 #### germany-municipalities-2026-03-parquet
 * fully qualified name: germany-municipalities-2026-03-parquet
+#### germany-municipalities-geodata-2025-01
+* fully qualified name: germany-municipalities-geodata-2025-01
+#### germany-municipalities-geodata-2025-01-low-res
+* fully qualified name: germany-municipalities-geodata-2025-01-low-res
 
 
 ---

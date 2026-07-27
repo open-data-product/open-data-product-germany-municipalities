@@ -1,10 +1,10 @@
 
-# Data Product Canvas - Municipalities
+# Data Product Canvas - Germany Municipalities
 
 ## Metadata
 
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-municipalities
+* url: https://github.com/open-data-product/open-data-product-germany-municipalities
 * license: CC-BY 4.0
 * updated: 2026-07-27
 
@@ -58,25 +58,59 @@ name: Verwaltungsgebiete 1:250 000 Stand 01.01. (VG250 01.01.)
 ### germany-municipalities-2026-03-csv
 name: Germany Municipalities 2026 03 Csv
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
+* url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
 * license: CC-BY 4.0
 * updated: 2026-07-27
 
 **Files**
 
-* [germany-municipalities-2026-03.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03.csv)
+* [germany-municipalities-2026-03.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03.csv)
 
 
 ### germany-municipalities-2026-03-parquet
 name: Germany Municipalities 2026 03 Parquet
 * owner: Open Data Product
-* url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
+* url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
 * license: CC-BY 4.0
 * updated: 2026-07-27
 
 **Files**
 
-* [germany-municipalities-2026-03.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03.parquet)
+* [germany-municipalities-2026-03.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03.parquet)
+
+
+### germany-municipalities-geodata-2025-01
+name: Germany Municipalities Geodata 2025 01
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-geodata-2025-01
+* license: CC-BY 4.0
+* updated: 2026-07-27
+
+**Files**
+
+* [germany-2025-01-administrative-associations.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01-administrative-associations.geojson)
+* [germany-2025-01-administrative-districts.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01-administrative-districts.geojson)
+* [germany-2025-01-counties.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01-counties.geojson)
+* [germany-2025-01-federal-states.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01-federal-states.geojson)
+* [germany-2025-01-municipalities.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01-municipalities.geojson)
+* [germany-2025-01.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01/germany-2025-01.geojson)
+
+
+### germany-municipalities-geodata-2025-01-low-res
+name: Germany Municipalities Geodata 2025 01 Low Res
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res
+* license: CC-BY 4.0
+* updated: 2026-07-27
+
+**Files**
+
+* [germany-2025-01-administrative-associations.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01-administrative-associations.geojson)
+* [germany-2025-01-administrative-districts.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01-administrative-districts.geojson)
+* [germany-2025-01-counties.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01-counties.geojson)
+* [germany-2025-01-federal-states.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01-federal-states.geojson)
+* [germany-2025-01-municipalities.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01-municipalities.geojson)
+* [germany-2025-01.geojson](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res/germany-2025-01.geojson)
 
 
 ## Classification
