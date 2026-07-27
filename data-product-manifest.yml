@@ -6,7 +6,7 @@ metadata:
   description:
   url: https://github.com/open-data-product/open-data-product-municipalities
   license: CC-BY 4.0
-  updated: 2026-07-18
+  updated: 2026-07-27
   schema:
 input_ports:
   - id: germany-municipalities-2026-06
@@ -63,7 +63,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
       license: CC-BY 4.0
-      updated: 2026-07-18
+      updated: 2026-07-27
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03.csv
@@ -74,7 +74,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
       license: CC-BY 4.0
-      updated: 2026-07-18
+      updated: 2026-07-27
       schema:
     files:
       - https://media.githubusercontent.com/media/open-data-product/open-data-product-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03.parquet

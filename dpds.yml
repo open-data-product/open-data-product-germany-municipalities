@@ -68,6 +68,19 @@ interfaceComponents:
       componentGroup:
       tags:
       externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: germany-municipalities-geodata-2025-01
+      fullyQualifiedName: germany-municipalities-geodata-2025-01
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
   discoveryPorts:
   observabilityPorts:
   controlPorts:

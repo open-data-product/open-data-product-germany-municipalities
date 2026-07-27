@@ -23,6 +23,8 @@
 * fully qualified name: germany-municipalities-2026-06
 #### germany-municipalities-2026-03
 * fully qualified name: germany-municipalities-2026-03
+#### germany-municipalities-geodata-2025-01
+* fully qualified name: germany-municipalities-geodata-2025-01
 
 ### Output Ports
 #### germany-municipalities-2026-03-csv

@@ -6,7 +6,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities
 * license: CC-BY 4.0
-* updated: 2026-07-18
+* updated: 2026-07-27
 
 ## Input Ports
 
@@ -34,6 +34,18 @@ name: Alle politisch selbständigen Gemeinden mit ausgewählten Merkmalen am 31.
 * [AuszugGV1QAktuell.xlsx?__blob=publicationFile&v=16](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV1QAktuell.xlsx?__blob=publicationFile&v=16)
 
 
+### germany-municipalities-geodata-2025-01
+name: Verwaltungsgebiete 1:250 000 Stand 01.01. (VG250 01.01.)
+* owner: Bundesamt für Kartographie und Geodäsie
+* url: https://gdz.bkg.bund.de/index.php/default/verwaltungsgebiete-1-250-000-stand-01-01-vg250-01-01.html
+* license: Data Licence Germany – Attribution – Version 2.0
+* updated: 2025-01-01
+
+**Files**
+
+* [vg250_01-01.utm32s.shape.ebenen.zip](https://daten.gdz.bkg.bund.de/produkte/vg/vg250_ebenen_0101/aktuell/vg250_01-01.utm32s.shape.ebenen.zip)
+
+
 ## Transformation Steps
 
 * [Data extractor](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py) extracts data from inout ports
@@ -48,7 +60,7 @@ name: Germany Municipalities 2026 03 Csv
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
 * license: CC-BY 4.0
-* updated: 2026-07-18
+* updated: 2026-07-27
 
 **Files**
 
@@ -60,7 +72,7 @@ name: Germany Municipalities 2026 03 Parquet
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
 * license: CC-BY 4.0
-* updated: 2026-07-18
+* updated: 2026-07-27
 
 **Files**
 
