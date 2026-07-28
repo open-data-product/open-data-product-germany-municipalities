@@ -64,6 +64,11 @@ name: Germany Municipalities 2026 03 Csv
 
 **Files**
 
+* [germany-municipalities-2026-03-admin-districts.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-admin-districts.csv)
+* [germany-municipalities-2026-03-associations.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-associations.csv)
+* [germany-municipalities-2026-03-counties.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-counties.csv)
+* [germany-municipalities-2026-03-federal-states.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-federal-states.csv)
+* [germany-municipalities-2026-03-municipalities.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03-municipalities.csv)
 * [germany-municipalities-2026-03.csv](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-csv/germany-municipalities-2026-03.csv)
 
 
@@ -76,6 +81,11 @@ name: Germany Municipalities 2026 03 Parquet
 
 **Files**
 
+* [germany-municipalities-2026-03-admin-districts.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-admin-districts.parquet)
+* [germany-municipalities-2026-03-associations.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-associations.parquet)
+* [germany-municipalities-2026-03-counties.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-counties.parquet)
+* [germany-municipalities-2026-03-federal-states.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-federal-states.parquet)
+* [germany-municipalities-2026-03-municipalities.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03-municipalities.parquet)
 * [germany-municipalities-2026-03.parquet](https://media.githubusercontent.com/media/open-data-product/open-data-product-germany-municipalities/refs/heads/main/data/03-gold/germany-municipalities-2026-03-parquet/germany-municipalities-2026-03.parquet)
 
 
