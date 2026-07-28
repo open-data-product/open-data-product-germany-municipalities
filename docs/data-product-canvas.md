@@ -6,7 +6,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-germany-municipalities
 * license: CC-BY 4.0
-* updated: 2026-07-27
+* updated: 2026-07-28
 
 ## Input Ports
 
@@ -60,7 +60,7 @@ name: Germany Municipalities 2026 03 Csv
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-csv
 * license: CC-BY 4.0
-* updated: 2026-07-27
+* updated: 2026-07-28
 
 **Files**
 
@@ -72,7 +72,7 @@ name: Germany Municipalities 2026 03 Parquet
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-2026-03-parquet
 * license: CC-BY 4.0
-* updated: 2026-07-27
+* updated: 2026-07-28
 
 **Files**
 
@@ -84,7 +84,7 @@ name: Germany Municipalities Geodata 2025 01
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-geodata-2025-01
 * license: CC-BY 4.0
-* updated: 2026-07-27
+* updated: 2026-07-28
 
 **Files**
 
@@ -101,7 +101,7 @@ name: Germany Municipalities Geodata 2025 01 Low Res
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-germany-municipalities/tree/main/data/03-gold/germany-municipalities-geodata-2025-01-low-res
 * license: CC-BY 4.0
-* updated: 2026-07-27
+* updated: 2026-07-28
 
 **Files**
 
