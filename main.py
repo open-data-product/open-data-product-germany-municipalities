@@ -51,6 +51,7 @@ from opendataproduct.transform.data_csv_converter import convert_data_to_csv
 from opendataproduct.transform.geodata_geojson_converter import convert_to_geojson
 from opendataproduct.transform.geodata_projection_converter import convert_projection
 from opendataproduct.transform.geodata_resolution_reducer import reduce_resolution
+from opendataproduct.transform.geodata_property_converter import convert_data_properties
 
 from lib.extract.coat_of_arms_extractor import extract_coat_of_arms
 from lib.config.municipality_information_system_loader import (
@@ -129,6 +130,14 @@ def main(clean, quiet):
     convert_to_geojson(
         data_transformation,
         source_path=bronze_path,
+        results_path=silver_path,
+        clean=clean,
+        quiet=quiet,
+    )
+
+    convert_data_properties(
+        data_transformation=data_transformation,
+        source_path=silver_path,
         results_path=silver_path,
         clean=clean,
         quiet=quiet,

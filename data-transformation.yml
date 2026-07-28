@@ -5,18 +5,180 @@ input_ports:
       - source_file_name: VG250_STA.shp
         target_file_name: germany-2025-01.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
       - source_file_name: VG250_LAN.shp
         target_file_name: germany-2025-01-federal-states.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
       - source_file_name: VG250_RBZ.shp
         target_file_name: germany-2025-01-administrative-districts.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
       - source_file_name: VG250_KRS.shp
         target_file_name: germany-2025-01-counties.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
       - source_file_name: VG250_VWG.shp
         target_file_name: germany-2025-01-administrative-associations.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
       - source_file_name: VG250_GEM.shp
         target_file_name: germany-2025-01-municipalities.geojson
         target_projection_number: 4326
+        properties:
+          - { name: OBJID, remove: True }
+          - { name: BEGINN, remove: True }
+          - { name: ADE, remove: True }
+          - { name: GF, remove: True }
+          - { name: BSG, remove: True }
+          - { name: LKZ, remove: True }
+          - { name: ARS, rename: ars }
+          - { name: AGS, rename: ags }
+          - { name: SDV_ARS, remove: True }
+          - { name: GEN, rename: name }
+          - { name: BEZ, remove: True }
+          - { name: IBZ, remove: True }
+          - { name: BEM, remove: True }
+          - { name: NBD, remove: True }
+          - { name: SN_L, remove: True }
+          - { name: SN_R, remove: True }
+          - { name: SN_K, remove: True }
+          - { name: SN_V1, remove: True }
+          - { name: SN_V2, remove: True }
+          - { name: SN_G, remove: True }
+          - { name: FK_S3, remove: True }
+          - { name: NUTS }
+          - { name: ARS_0, remove: True }
+          - { name: AGS_0, remove: True }
+          - { name: WSK, remove: True }
+          - { name: DLM_ID, remove: True }
