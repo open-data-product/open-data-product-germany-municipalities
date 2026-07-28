@@ -1,6 +1,226 @@
 ---
 attribute_groups:
-  all: &all
+  federal_states: &federal_states
+    - { name: id, remove: True}
+    - { name: ars, concat: [ federal_state_id ], zfill: 2 }
+    - { name: ags, concat: [ federal_state_id ], zfill: 2 }
+    - name: type
+      key: type
+      mapping:
+        "10": federal_state
+        "20": admin_district
+        "30": region
+        "40": county
+        "50": association
+        "60": municipality
+    - name: sub_type
+      key: sub_type
+      mapping:
+        "41": independent_city
+        "42": urban_district_bw
+        "43": district
+        "44": rural_district
+        "45": regional_association_saarland
+        "50": independent_municipality
+        "51": administrative_office
+        "52": joint_municipality_lower_saxony
+        "53": collective_municipality
+        "54": administrative_community
+        "55": parish_land_municipality
+        "56": administrative_association
+        "58": fulfilling_municipality
+        "60": market_town
+        "61": independent_city_duplicate
+        "62": urban_district_bw_duplicate
+        "63": city
+        "64": district_member_municipality
+        "65": unincorporated_area_inhabited
+        "66": unincorporated_area_uninhabited
+        "67": large_district_town
+    - { name: federal_state_id, zfill: 2, remove: True }
+    - { name: admin_district_id, zfill: 1, remove: True }
+    - { name: county_id, zfill: 2, remove: True }
+    - { name: association_id, zfill: 4, remove: True }
+    - { name: municipality_id, zfill: 3, remove: True }
+    - { name: municipality_name }
+    - { name: area_sqkm, type: float }
+    - { name: population_total, type: int }
+    - { name: population_male, type: int }
+    - { name: population_female, type: int }
+    - { name: population_per_sqkm, type: int }
+    - { name: zip_code }
+    - { name: center_lon, type: float }
+    - { name: center_lat, type: float }
+    - { name: travel_destination_key, remove: True }
+    - { name: travel_destination_name,  remove: True }
+    - { name: degree_of_urbanization_key }
+    - { name: degree_of_urbanization_name }
+  admin_districts: &admin_districts
+    - { name: id, remove: True}
+    - { name: ars, concat: [ federal_state_id, admin_district_id ], zfill: 3 }
+    - { name: ags, concat: [ federal_state_id, admin_district_id ], zfill: 3 }
+    - name: type
+      key: type
+      mapping:
+        "10": federal_state
+        "20": admin_district
+        "30": region
+        "40": county
+        "50": association
+        "60": municipality
+    - name: sub_type
+      key: sub_type
+      mapping:
+        "41": independent_city
+        "42": urban_district_bw
+        "43": district
+        "44": rural_district
+        "45": regional_association_saarland
+        "50": independent_municipality
+        "51": administrative_office
+        "52": joint_municipality_lower_saxony
+        "53": collective_municipality
+        "54": administrative_community
+        "55": parish_land_municipality
+        "56": administrative_association
+        "58": fulfilling_municipality
+        "60": market_town
+        "61": independent_city_duplicate
+        "62": urban_district_bw_duplicate
+        "63": city
+        "64": district_member_municipality
+        "65": unincorporated_area_inhabited
+        "66": unincorporated_area_uninhabited
+        "67": large_district_town
+    - { name: federal_state_id, zfill: 2, remove: True }
+    - { name: admin_district_id, zfill: 1, remove: True }
+    - { name: county_id, zfill: 2, remove: True }
+    - { name: association_id, zfill: 4, remove: True }
+    - { name: municipality_id, zfill: 3, remove: True }
+    - { name: municipality_name }
+    - { name: area_sqkm, type: float }
+    - { name: population_total, type: int }
+    - { name: population_male, type: int }
+    - { name: population_female, type: int }
+    - { name: population_per_sqkm, type: int }
+    - { name: zip_code }
+    - { name: center_lon, type: float }
+    - { name: center_lat, type: float }
+    - { name: travel_destination_key, remove: True }
+    - { name: travel_destination_name,  remove: True }
+    - { name: degree_of_urbanization_key }
+    - { name: degree_of_urbanization_name }
+  counties: &counties
+    - { name: id, remove: True}
+    - { name: ars, concat: [ federal_state_id, admin_district_id, county_id ], zfill: 5 }
+    - { name: ags, concat: [ federal_state_id, admin_district_id, county_id ], zfill: 5 }
+    - name: type
+      key: type
+      mapping:
+        "10": federal_state
+        "20": admin_district
+        "30": region
+        "40": county
+        "50": association
+        "60": municipality
+    - name: sub_type
+      key: sub_type
+      mapping:
+        "41": independent_city
+        "42": urban_district_bw
+        "43": district
+        "44": rural_district
+        "45": regional_association_saarland
+        "50": independent_municipality
+        "51": administrative_office
+        "52": joint_municipality_lower_saxony
+        "53": collective_municipality
+        "54": administrative_community
+        "55": parish_land_municipality
+        "56": administrative_association
+        "58": fulfilling_municipality
+        "60": market_town
+        "61": independent_city_duplicate
+        "62": urban_district_bw_duplicate
+        "63": city
+        "64": district_member_municipality
+        "65": unincorporated_area_inhabited
+        "66": unincorporated_area_uninhabited
+        "67": large_district_town
+    - { name: federal_state_id, zfill: 2, remove: True }
+    - { name: admin_district_id, zfill: 1, remove: True }
+    - { name: county_id, zfill: 2, remove: True }
+    - { name: association_id, zfill: 4, remove: True }
+    - { name: municipality_id, zfill: 3, remove: True }
+    - { name: municipality_name }
+    - { name: area_sqkm, type: float }
+    - { name: population_total, type: int }
+    - { name: population_male, type: int }
+    - { name: population_female, type: int }
+    - { name: population_per_sqkm, type: int }
+    - { name: zip_code }
+    - { name: center_lon, type: float }
+    - { name: center_lat, type: float }
+    - { name: travel_destination_key, remove: True }
+    - { name: travel_destination_name,  remove: True }
+    - { name: degree_of_urbanization_key }
+    - { name: degree_of_urbanization_name }
+  associations: &associations
+    - { name: id, remove: True}
+    - { name: ars, concat: [ federal_state_id, admin_district_id, county_id, association_id ], zfill: 9 }
+    - { name: ags, concat: [ federal_state_id, admin_district_id, county_id ], zfill: 5 }
+    - name: type
+      key: type
+      mapping:
+        "10": federal_state
+        "20": admin_district
+        "30": region
+        "40": county
+        "50": association
+        "60": municipality
+    - name: sub_type
+      key: sub_type
+      mapping:
+        "41": independent_city
+        "42": urban_district_bw
+        "43": district
+        "44": rural_district
+        "45": regional_association_saarland
+        "50": independent_municipality
+        "51": administrative_office
+        "52": joint_municipality_lower_saxony
+        "53": collective_municipality
+        "54": administrative_community
+        "55": parish_land_municipality
+        "56": administrative_association
+        "58": fulfilling_municipality
+        "60": market_town
+        "61": independent_city_duplicate
+        "62": urban_district_bw_duplicate
+        "63": city
+        "64": district_member_municipality
+        "65": unincorporated_area_inhabited
+        "66": unincorporated_area_uninhabited
+        "67": large_district_town
+    - { name: federal_state_id, zfill: 2, remove: True }
+    - { name: admin_district_id, zfill: 1, remove: True }
+    - { name: county_id, zfill: 2, remove: True }
+    - { name: association_id, zfill: 4, remove: True }
+    - { name: municipality_id, zfill: 3, remove: True }
+    - { name: municipality_name }
+    - { name: area_sqkm, type: float }
+    - { name: population_total, type: int }
+    - { name: population_male, type: int }
+    - { name: population_female, type: int }
+    - { name: population_per_sqkm, type: int }
+    - { name: zip_code }
+    - { name: center_lon, type: float }
+    - { name: center_lat, type: float }
+    - { name: travel_destination_key, remove: True }
+    - { name: travel_destination_name,  remove: True }
+    - { name: degree_of_urbanization_key }
+    - { name: degree_of_urbanization_name }
+  municipalities: &municipalities
     - { name: id, remove: True}
     - { name: ars, concat: [ federal_state_id, admin_district_id, county_id, association_id, municipality_id ], zfill: 12 }
     - { name: ags, concat: [ federal_state_id, admin_district_id, county_id, municipality_id ], zfill: 8 }
@@ -59,7 +279,31 @@ input_ports:
   - id: germany-municipalities-2026-03
     files:
       - source_file_name: germany-municipalities-2026-03.csv
-        target_file_name: germany-municipalities-2026-03.csv
-        names: *all
+        target_file_name: germany-municipalities-2026-03-federal-states.csv
+        names: *federal_states
+        filters:
+          - { key: federal_state_id, value: "", operation: does_not_equal }
+          - { key: admin_district_id, value: "", operation: equals }
+      - source_file_name: germany-municipalities-2026-03.csv
+        target_file_name: germany-municipalities-2026-03-admin-districts.csv
+        names: *admin_districts
+        filters:
+          - { key: admin_district_id, value: "", operation: does_not_equal }
+          - { key: county_id, value: "", operation: equals }
+      - source_file_name: germany-municipalities-2026-03.csv
+        target_file_name: germany-municipalities-2026-03-counties.csv
+        names: *counties
+        filters:
+          - { key: county_id, value: "", operation: does_not_equal }
+          - { key: association_id, value: "", operation: equals }
+      - source_file_name: germany-municipalities-2026-03.csv
+        target_file_name: germany-municipalities-2026-03-associations.csv
+        names: *associations
+        filters:
+          - { key: association_id, value: "", operation: does_not_equal }
+          - { key: municipality_id, value: "", operation: equals }
+      - source_file_name: germany-municipalities-2026-03.csv
+        target_file_name: germany-municipalities-2026-03-municipalities.csv
+        names: *municipalities
         filters:
           - { key: municipality_id, value: "", operation: does_not_equal }
